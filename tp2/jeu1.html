@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>| TP 2 | le nombre magique</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="bg-acceuil"></div>
+	<div class="container contenu">
+		<div class="col-sm-8 offset-sm-2 jeu2">
+
+			<div class="row header">
+				<div class="col-sm-12">
+					<div class="logo"><img src="images/logo.png"></div>
+					<h1>TP N*2 | THREEBOYS</h1>
+					<div class="row">
+						<div class="col-sm-4 offset-sm-4">
+							<a href="index.html" class="btn btn-success btn-sm retour">retour au menu principal</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row section-jeu">
+				<div class="col-sm-8 offset-sm-2">
+					<h3> LE COMBAT</h3>
+					<p>
+						le jeu de combat se joue à deux et en 3 round, il consiste a choisi un nombre plus élévé que sont adversaire. attention !!! ce n'est pas si facil que sa; vos nombre seront modifiés avec des calculs et seront cumulés à la fin du combat. Donc Choisisez bien vos nombres...  
+					</p><br>
+
+					<div class="row">
+						<div class="col-sm-3">
+							<button onclick="alert('cliquez sur le bouton << jouer ici >>')" class="btn btn-info btn-outline btn-sm"><i class="fa fa-user joueur1"></i><br>joueur 1</button>
+						</div>
+
+						<div class="col-sm-3 offset-sm-1">
+							<button onclick="combat()" class="btn btn-light btn-outline btn-sm">jouer ici</button>
+						</div>
+
+						<div class="col-sm-3 offset-sm-1">
+							<button onclick="alert('cliquez sur le bouton << jouer ici >>')" class="btn btn-danger btn-outline btn-sm"><i class="fa fa-user joueur2"></i><br>joueur 2</button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jeu1.js"></script>
+</html>

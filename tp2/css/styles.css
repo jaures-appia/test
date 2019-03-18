@@ -1,0 +1,168 @@
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### STYLE DE NAN PATISSERIE #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+/*##### 
+LES DIFFFERENTES COULEURS DU SITES
+
+maron (700):#5D4037
+maron (500):#795548
+maron (300):#A1887F
+
+orange (700):#F57C00
+orange (500):#FF9800
+orange (300):#FFB74D
+orange (A400):#FF9100
+
+rouge (700):#D32F2F
+rouge (500):#F44336
+rouge (300):#E57373
+rouge (A700):#D50000
+
+vert (700):#388E3C
+vert (500):#4CAF50
+vert (300):#81C784
+vert (A400):#00E676
+
+jaune (700):#FBC02D
+jaune (500):#FFEB3B
+jaune (300):#FFF176
+jaune (A400):#FFEA00
+
+violet (700):#7B1FA2
+violet (500):#9C27B0
+violet (300):#BA68C8
+violet (A400):#D500F9
+
+ #####*/
+
+ /*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### PAGE D'ACCEUIL #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+/*body{
+	background: url(../images/carousel2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+body background-image{
+	filter: blur(10px);
+}*/
+.body{
+	color: white;
+}
+.bg-acceuil {
+/* La position est fixée en haut à gauche, en arrière-plan de la page */
+position: fixed;
+left: 0;
+right: 0;
+z-index: 1;
+/* On indique l'image de fond et les dimensions qu'elle occupe */
+display: block;
+background-image:
+url(../images/bg-jeu.jpg);
+background-position: center center;
+background-size: cover;
+width: 100%;
+height: 100%;
+/* On applique le filtre CSS3 pour flouter l'image (avec ici les variantes pour les différents moteurs de rendu) */
+/* Safari */
+-webkit-filter: blur(8px);
+/* Firefox */
+-moz-filter: blur(8px);
+/* Opera */
+-o-filter: blur(8px);
+/* Internet Explorer */
+-ms-filter: blur(8px);
+/* Filtre de floutage CSS3 standard */
+filter: blur(8px);
+}
+.contenu {
+/* Le contenu est fixé en haut de la page */
+position: fixed;
+left: 0;
+right: 0;
+margin-top: 10%;
+margin-bottom: 10%;
+/* Il est mis au premier plan */
+z-index: 9999;
+}
+.box-exo{
+	margin-bottom: 5px;
+}
+.img-exo{
+	width: 250px;
+	height: 200px;
+}
+.acceuil{
+	border: solid 3px black;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: #222;
+}
+.acceuil .logo{
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.acceuil h1{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 5%;
+}
+.title-jeu{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: -1%;
+}
+.img-thumbnail{
+	border-color: black;
+}
+
+/*-*--*--*--*--*--*--*--*--*--*--*--*--*-
+##### jeu2 #####
+-*--*--*--*--*--*--*--*--*--*--*--*--*-*/
+
+.jeu2{
+	background-color: #222;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-radius: 100px;
+}
+.jeu2 .logo{
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jeu2 h1{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: ;
+	color: white;
+}
+.header{
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.section-jeu p{
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+}
+.section-jeu h3{
+	font-weight: bold;
+	color: orange;
+	font-size: 30px;
+}
+.retour{
+	font-size: 12px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
